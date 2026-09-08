@@ -1,0 +1,18 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+background: linear-gradient(to right, #434343 0%, #1c1c1c 100%);
+  color: #f3f3f3;
+}
+
+
+#root{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

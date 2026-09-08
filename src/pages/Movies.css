@@ -1,0 +1,24 @@
+#search {
+    display: block; 
+    margin: 3rem auto; 
+    width: 90%;
+    max-width: 650px;
+    
+   
+    background-color: #f0f0f0; 
+    color: #141414; 
+    
+    border: none;
+    border-radius: 50px; 
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+}
+
+#search:focus {
+    outline: none;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 3px #f5c518, 0 8px 20px rgba(0,0,0,0.4); 
+    transform: translateY(-2px); 
+}
